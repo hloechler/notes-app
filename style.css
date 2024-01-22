@@ -50,18 +50,7 @@
     padding-right: 6px;
 }
 
-
-.notecard{
-    position: relative;
-    max-width: 25%;
-    min-height: 200px;
-    max-height: fit-content;
-    background: white;
-    border-radius: 8px;
-    color: black;
-}
-
-.notecard img{
+.input-box img{
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -69,11 +58,21 @@
     padding-top: 3px;
 }
 
-.input-box{
-    padding: 10px;
-    border: none;
+.notecard img:hover{
+    cursor: pointer;
 }
 
-.input-box:focus{
+.input-box{
+    position: relative;
+    color: black;
+    padding: 10px;
+    margin: 10px;
     outline: none;
+    max-width: 350px;
+    min-height: 200px;
+    border: none;
+    background: #fff;
+    border-radius: 8px;
 }
+
+
